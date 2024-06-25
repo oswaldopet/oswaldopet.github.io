@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud de los Perros</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #4CAF50, #81C784);
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            flex: 1 0 45%;
+            box-sizing: border-box;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h3 {
+            margin: 0 0 10px;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 0 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Salud de los Perros</h1>
+    </header>
+    <div class="container">
+        <section class="content">
+            <div class="card">
+                <img src="imagenes/vacunacion.jfif" alt="Vacunación">
+                <div class="card-content">
+                    <h3>Vacunación</h3>
+                    <p>Las vacunas son esenciales para prevenir enfermedades graves en los perros. Las vacunas comunes incluyen la parvovirus, moquillo, hepatitis y rabia. Consultar con un veterinario sobre un calendario de vacunación adecuado es fundamental para la salud del perro.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/desparacitacion.jfif" alt="Desparasitación">
+                <div class="card-content">
+                    <h3>Desparasitación</h3>
+                    <p>La desparasitación regular es necesaria para prevenir infestaciones de parásitos internos y externos, como gusanos intestinales, pulgas y garrapatas. Un plan de desparasitación adecuado debe ser discutido con el veterinario para proteger la salud del perro.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/salud dental.jfif" alt="Salud Dental">
+                <div class="card-content">
+                    <h3>Salud Dental</h3>
+                    <p>La higiene dental es crucial para prevenir enfermedades periodontales en los perros. Cepillar los dientes del perro regularmente, ofrecer juguetes y alimentos diseñados para limpiar los dientes, y realizar chequeos dentales con el veterinario son prácticas recomendadas.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/chequeos.jfif" alt="Chequeos Veterinarios">
+                <div class="card-content">
+                    <h3>Chequeos Veterinarios</h3>
+                    <p>Las visitas regulares al veterinario son esenciales para detectar y tratar problemas de salud antes de que se vuelvan graves. Los chequeos de rutina incluyen exámenes físicos, análisis de sangre y pruebas de detección de enfermedades.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/nutricion.jfif"Nutrición Adecuada">
+                <div class="card-content">
+                    <h3>Nutrición Adecuada</h3>
+                    <p>Una dieta equilibrada y de alta calidad es fundamental para la salud del perro. Proporcionar alimentos que cumplan con los estándares nutricionales y adaptarse a las necesidades específicas del perro en cada etapa de su vida es crucial.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/ejercicio.jfif" alt="Ejercicio y Actividad">
+                <div class="card-content">
+                    <h3>Ejercicio y Actividad</h3>
+                    <p>El ejercicio regular es esencial para mantener a los perros en buena forma física y mental. Las actividades deben adaptarse a la raza, edad y salud del perro, incluyendo paseos diarios, juegos y deportes caninos.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/salud mental.jfif" alt="Salud Mental">
+                <div class="card-content">
+                    <h3>Salud Mental</h3>
+                    <p>La estimulación mental es vital para prevenir problemas de comportamiento y mantener a los perros felices. Juegos de inteligencia, entrenamiento y socialización son formas efectivas de mantener la mente del perro activa.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/higiene.jfif" alt="Higiene y Cuidado">
+                <div class="card-content">
+                    <h3>Higiene y Cuidado</h3>
+                    <p>El cuidado regular del pelaje, las uñas y los oídos ayuda a prevenir infecciones y mantener la salud general del perro. El aseo debe adaptarse a las necesidades específicas de la raza y puede incluir cepillado, baños y recorte de uñas.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/prevencion de enfermedades.jfif" alt="Prevención de Enfermedades">
+                <div class="card-content">
+                    <h3>Prevención de Enfermedades</h3>
+                    <p>La prevención de enfermedades a través de vacunas, desparasitación y chequeos regulares es crucial para mantener a los perros sanos. Mantener un ambiente limpio y seguro también contribuye a prevenir enfermedades.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/sintomas.jfif" alt="Reconocimiento de Síntomas">
+                <div class="card-content">
+                    <h3>Reconocimiento de Síntomas</h3>
+                    <p>Conocer los síntomas de enfermedades comunes y estar atento a cambios en el comportamiento o apariencia del perro puede ayudar a detectar problemas de salud tempranamente. Consultar al veterinario ante cualquier duda es siempre recomendable.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Salud de los Perros</p>
+    </footer>
+</body>
+</html>

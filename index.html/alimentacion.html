@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimentación de los Perros</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #4CAF50, #81C784);
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            flex: 1 0 45%;
+            box-sizing: border-box;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h3 {
+            margin: 0 0 10px;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 0 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alimentación de los Perros</h1>
+    </header>
+    <div class="container">
+        <section class="content">
+            <div class="card">
+                <img src="imagenes/balanceada.jfif" alt="Dieta Balanceada">
+                <div class="card-content">
+                    <h3>Dieta Balanceada</h3>
+                    <p>Una dieta balanceada es esencial para la salud de los perros. Debe incluir una combinación adecuada de proteínas, grasas, carbohidratos, vitaminas y minerales. La dieta debe adaptarse a la edad, tamaño, raza y nivel de actividad del perro para asegurar que recibe todos los nutrientes necesarios.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/comerciales.jfif" alt="Alimentos Comerciales">
+                <div class="card-content">
+                    <h3>Alimentos Comerciales</h3>
+                    <p>Los alimentos comerciales para perros, como croquetas y alimentos húmedos, están formulados para proporcionar una nutrición equilibrada. Es importante elegir productos de alta calidad, preferiblemente aquellos que cumplen con los estándares de la AAFCO. Leer las etiquetas y entender los ingredientes es clave para hacer una elección informada.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/dieta casera.jfif" alt="Dietas Caseras">
+                <div class="card-content">
+                    <h3>Dietas Caseras</h3>
+                    <p>Algunas personas optan por preparar comida casera para sus perros. Es crucial asegurarse de que estas dietas estén equilibradas y contengan todos los nutrientes necesarios. Consultar con un veterinario o un nutricionista canino es recomendable para evitar deficiencias nutricionales.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/dieta cruda.jfif" alt="Dietas Crudas">
+                <div class="card-content">
+                    <h3>Dietas Crudas</h3>
+                    <p>Las dietas crudas, también conocidas como BARF (Biologically Appropriate Raw Food), incluyen carnes crudas, huesos, y vegetales. Si bien algunos creen que esta dieta es más natural para los perros, debe ser manejada con cuidado para evitar riesgos de salud como infecciones bacterianas y desequilibrios nutricionales.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/hidratacion.jfif" alt="Hidratación">
+                <div class="card-content">
+                    <h3>Hidratación</h3>
+                    <p>El agua es esencial para la salud de los perros. Deben tener acceso constante a agua limpia y fresca. La cantidad de agua que un perro necesita puede variar según su tamaño, dieta, nivel de actividad y clima. Una hidratación adecuada es crucial para la digestión, la regulación de la temperatura corporal y la función celular.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/prohibidos.jfif" alt="Alimentos Prohibidos">
+                <div class="card-content">
+                    <h3>Alimentos Prohibidos</h3>
+                    <p>Existen alimentos que son tóxicos para los perros y deben evitarse, como el chocolate, la cebolla, el ajo, las uvas, las pasas y el aguacate. Otros alimentos, como los huesos cocidos, pueden causar problemas de salud. Es importante estar informado sobre qué alimentos son seguros y cuáles pueden poner en peligro la salud de tu perro.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/frecuencia alimentaria.jfif" alt="Frecuencia de Alimentación">
+                <div class="card-content">
+                    <h3>Frecuencia de Alimentación</h3>
+                    <p>La frecuencia con la que alimentas a tu perro puede depender de su edad y necesidades específicas. Los cachorros suelen necesitar comidas más frecuentes que los adultos. Generalmente, se recomienda alimentar a los perros adultos dos veces al día para mantener un nivel de energía estable y una digestión saludable.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/suplementos.jfif" alt="Suplementos Nutricionales">
+                <div class="card-content">
+                    <h3>Suplementos Nutricionales</h3>
+                    <p>En algunos casos, los suplementos nutricionales pueden ser beneficiosos para los perros, especialmente si tienen necesidades dietéticas especiales o condiciones de salud. Los suplementos deben ser recomendados por un veterinario para asegurar que son seguros y necesarios.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/obecidad.jfif" alt="Obesidad Canina">
+                <div class="card-content">
+                    <h3>Obesidad Canina</h3>
+                    <p>La obesidad es un problema común en los perros y puede llevar a diversas complicaciones de salud, como enfermedades cardíacas, diabetes y problemas articulares. Mantener un peso saludable a través de una dieta equilibrada y ejercicio regular es crucial para la longevidad y bienestar del perro.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagenes/cambiodieta.jfif" alt="Cambios en la Dieta">
+                <div class="card-content">
+                    <h3>Cambios en la Dieta</h3>
+                    <p>Si necesitas cambiar la dieta de tu perro, es importante hacerlo gradualmente para evitar problemas digestivos. Introducir el nuevo alimento de forma paulatina, mezclándolo con el alimento anterior durante una semana o más, puede ayudar a que el perro se adapte sin inconvenientes.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Alimentación de los Perros</p>
+    </footer>
+</body>
+</html

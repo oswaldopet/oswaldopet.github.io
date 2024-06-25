@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Perros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        nav {
+            background-color: #004d40;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 25px; /* Aumenta el margen a 25px */
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .content h2 {
+            color: #00796b;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        .content p {
+            line-height: 1.6;
+            font-size: 1.2em;
+        }
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            color: #00796b;
+            font-weight: bold;
+        }
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%; /* Position above */
+            left: 50%;
+            margin-left: -100px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Los Perros
+</header>
+
+<nav>
+    <a href="caracteristicas.html">Características</a>
+    <a href="comportamiento.html">Comportamiento</a>
+    <a href="alimentacion.html">Alimentación</a>
+    <a href="salud.html">Salud</a>
+    <a href="interacciones.html">Interacciones</a>
+</nav>
+
+<div class="content">
+    <h2 id="historia">Historia de la Domesticación</h2>
+    <img src="imagenes/perro1.jpg" alt="">
+    <p>Los perros han sido domesticados por el ser humano desde hace más de <span class="tooltip">15,000 años<span class="tooltiptext">Según estudios arqueológicos y genéticos recientes.</span></span>. Esta relación entre humanos y perros ha sido beneficiosa para ambas especies, brindándonos compañía, protección y asistencia en diversas tareas.</p>
+    <img src="imagenes/perro2.jpg" alt="Perros juntos">
+    <p>La domesticación de los perros comenzó con la convivencia y la selección natural. Con el tiempo, los humanos comenzaron a criar perros con características específicas para tareas como la caza, el pastoreo y la vigilancia.</p>
+    <p>Los perros descienden del lobo gris. Sin embargo, a lo largo de miles de años, los perros y los humanos han coevolucionado, adaptándose el uno al otro. El proceso de domesticación implicó la selección de lobos menos agresivos que se acercaban a los asentamientos humanos en busca de alimento. Estos lobos más dóciles y sociales eventualmente se convirtieron en los primeros perros domésticos.</p>
+    <p>En la antigüedad, los perros ya tenían roles importantes en las sociedades humanas. En Egipto, eran venerados y frecuentemente representados en el arte y la literatura. En Grecia y Roma, los perros eran utilizados para la caza, la guerra y como guardianes. Los nativos americanos también valoraban a los perros como compañeros de caza y guardianes de sus aldeas.</p>
+    <p>Con el tiempo, la crianza selectiva llevó a la creación de diversas razas con características específicas. Durante la Edad Media, por ejemplo, surgieron razas como el mastín, utilizado en la guerra y la caza de grandes presas. En épocas más recientes, el perro se ha convertido en un miembro esencial de muchas familias, ofreciendo compañía y amor incondicional.</p>
+    <p>El siglo XIX fue un período crucial para la creación de razas modernas. Los victorianos en particular estaban obsesionados con la cría de perros y la organización de exposiciones caninas. Esta era marcó el inicio del Kennel Club en Inglaterra y el American Kennel Club en Estados Unidos, organizaciones dedicadas a la estandarización y registro de razas.</p>
+    <p>Hoy en día, los perros desempeñan una variedad de roles en la sociedad moderna. Además de ser mascotas queridas, trabajan como perros guía para personas con discapacidades visuales, perros de terapia que brindan consuelo a los enfermos, perros de búsqueda y rescate, y perros policía que ayudan en la detección de sustancias y la captura de criminales.</p>
+</div>
+
+<footer>
+    <p>© 2024 Los Perros</p>
+</footer>
+
+</body>
+</html
